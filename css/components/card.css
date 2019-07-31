@@ -1,0 +1,52 @@
+.card-container {
+  width: 300px;
+  height: 400px;
+}
+
+.card-white {
+  background-color: #fff;
+  width: 250px;
+  height: 175px;
+  padding: 10px;
+}
+
+.card-white:hover .btn-white {
+  opacity: 1;
+}
+
+.card-img {
+  background-image: url('https://picsum.photos/id/984/200/300');
+  width: 229px;
+  height: 135px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.margin-top {
+  margin-top: 8px;
+}
+
+.text-grey {
+  color: #B0B0B0;
+}
+
+.card-user {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-left: 8px;
+  color: rgba(32, 140, 179, 0.7);
+}
+
+.username:hover {
+  color: rgba(32, 140, 179, 1);
+}
